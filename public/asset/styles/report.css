@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+	font-family: cour;
+	src: url('cour.ttf');
+}
+
+*, html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 10px;
+	font-family: "cour", courier-new, courier, arial, sans-serif;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2, h3, h4 {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	font-size: 11px;
+}
+
+table.tablemain tr {
+	text-align: center;
+}
+
+table.tablemain tr table {
+	text-align: left;
+}
+
+table.tablemain tr td {
+	text-align: left;
+}
+
+table, th, td {
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+td {
+	padding: 2px 3px;
+}
+
+.tabledata tr:nth-child(2n+3) td {
+	background-color: #F4F4F4;
+}
+
+.tabledata tr td.highlight {
+	background-color: #FEC8C8;
+}
+
+.tabledata tr:nth-child(2n+3) td.hightlight {
+	background-color: #FE9898;
+}
+
+#cetak {
+	margin: 15px 0px;
+}
+
+ul {
+	margin-left: 15px;
+}
